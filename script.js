@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const gameResult = document.getElementById("gameResult");
   const scoreDisplay = document.getElementById("scoreDisplay");
 
-  const modelUrl = "https://teachablemachine.withgoogle.com/models/Wyg-wcf0O/model.json";
+  const modelUrl = "https://teachablemachine.withgoogle.com/models/Uzb_xi93a/model.json";
   let userChoice = "";
   let classifier = ml5.imageClassifier(modelUrl, modelLoaded);
 
